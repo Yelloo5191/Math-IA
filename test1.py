@@ -1,9 +1,14 @@
 import cProfile, os, random
 
 """ This is very bare-bones atm, mainly just for testing cProfile """
+# TODO: Write n^3 and log(n) methods
+
+# O(n^3)
+def twoSum(nums: list, target: int) -> list:
+    pass
 
 # O(n^2)
-def twoSum(nums: list, target: int) -> list:
+def twoSum1(nums: list, target: int) -> list:
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
             if nums[i] + nums[j] == target:
@@ -49,16 +54,25 @@ cases = [
         ("sampleSmall.txt", twoSum),
         ("sampleMedium.txt", twoSum),
         ("sampleLarge.txt", twoSum),
+        ("sampleExtraLarge.txt", twoSum)
+    ],
+    [
+        ("sampleSmall.txt", twoSum1),
+        ("sampleMedium.txt", twoSum1),
+        ("sampleLarge.txt", twoSum1),
+        ("sampleExtraLarge.txt", twoSum1)
     ],
     [
         ("sampleSmall.txt", twoSum2),
         ("sampleMedium.txt", twoSum2),
         ("sampleLarge.txt", twoSum2),
+        ("sampleExtraLarge.txt", twoSum2)
     ],
     [
         ("sampleSmall.txt", twoSum3),
         ("sampleMedium.txt", twoSum3),
         ("sampleLarge.txt", twoSum3),
+        ("sampleExtraLarge.txt", twoSum3)
     ],
 ]
 
