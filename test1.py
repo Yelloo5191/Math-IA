@@ -1,7 +1,7 @@
 import cProfile, os, random
 
 """ This is very bare-bones atm, mainly just for testing cProfile """
-# TODO: Write n^3 and log(n) methods
+# TODO: Write n^3 and log(n) methods and save cProfile results to results.txt file
 
 # O(n^3)
 def twoSum(nums: list, target: int) -> list:
