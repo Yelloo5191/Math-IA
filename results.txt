@@ -1,0 +1,238 @@
+sampleSmall.txt - <function twoSum1 at 0x0000023AEC043E20>:
+         211 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.000    0.000    0.001    0.001 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}        
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}    
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}  
+      101    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+      100    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleMedium.txt - <function twoSum1 at 0x0000023AEC043E20>:
+         2011 function calls in 0.004 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.004    0.004 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.002    0.002    0.004    0.004 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.004    0.004 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+     1001    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleLarge.txt - <function twoSum1 at 0x0000023AEC043E20>:
+         20011 function calls in 0.037 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.037    0.037 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.002    0.002 cp1252.py:22(decode)
+        1    0.026    0.026    0.036    0.036 test1.py:39(testTwoSum)
+        1    0.002    0.002    0.002    0.002 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.037    0.037 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.002    0.002    0.004    0.004 {method 'read' of '_io.TextIOWrapper' objects}
+    10001    0.005    0.000    0.005    0.000 {method 'split' of 'str' objects}
+    10000    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+
+
+sampleExtraLarge.txt - <function twoSum1 at 0x0000023AEC043E20>:
+         4901 function calls in 0.013 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.012    0.012 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.001    0.001 cp1252.py:22(decode)
+        1    0.009    0.009    0.012    0.012 test1.py:39(testTwoSum)
+        1    0.001    0.001    0.001    0.001 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.013    0.013 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.001    0.001    0.001    0.001 {method 'read' of '_io.TextIOWrapper' objects}
+     2446    0.002    0.000    0.002    0.000 {method 'split' of 'str' objects}
+     2445    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleSmall.txt - <function twoSum2 at 0x0000023AEC1A4280>:
+         211 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.000    0.000    0.001    0.001 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+      101    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+      100    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleMedium.txt - <function twoSum2 at 0x0000023AEC1A4280>:
+         2011 function calls in 0.004 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.004    0.004 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.002    0.002    0.004    0.004 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.004    0.004 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+     1001    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleLarge.txt - <function twoSum2 at 0x0000023AEC1A4280>:
+         20011 function calls in 0.032 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.032    0.032 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.001    0.001 cp1252.py:22(decode)
+        1    0.023    0.023    0.032    0.032 test1.py:39(testTwoSum)
+        1    0.001    0.001    0.001    0.001 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.032    0.032 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.001    0.001    0.002    0.002 {method 'read' of '_io.TextIOWrapper' objects}
+    10001    0.004    0.000    0.004    0.000 {method 'split' of 'str' objects}
+    10000    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+
+
+sampleExtraLarge.txt - <function twoSum2 at 0x0000023AEC1A4280>:
+         4901 function calls in 0.013 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.013    0.013 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.001    0.001 cp1252.py:22(decode)
+        1    0.009    0.009    0.013    0.013 test1.py:39(testTwoSum)
+        1    0.001    0.001    0.001    0.001 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.013    0.013 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.001    0.001    0.002    0.002 {method 'read' of '_io.TextIOWrapper' objects}
+     2446    0.002    0.000    0.002    0.000 {method 'split' of 'str' objects}
+     2445    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleSmall.txt - <function twoSum3 at 0x0000023AEC1A45E0>:
+         211 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.000    0.000    0.001    0.001 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+      101    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+      100    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleMedium.txt - <function twoSum3 at 0x0000023AEC1A45E0>:
+         2011 function calls in 0.003 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.003    0.003 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+        1    0.002    0.002    0.003    0.003 test1.py:39(testTwoSum)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.003    0.003 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+     1001    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
+sampleLarge.txt - <function twoSum3 at 0x0000023AEC1A45E0>:
+         20011 function calls in 0.033 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.033    0.033 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.002    0.002 cp1252.py:22(decode)
+        1    0.024    0.024    0.033    0.033 test1.py:39(testTwoSum)
+        1    0.002    0.002    0.002    0.002 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.033    0.033 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.001    0.001    0.003    0.003 {method 'read' of '_io.TextIOWrapper' objects}
+    10001    0.004    0.000    0.004    0.000 {method 'split' of 'str' objects}
+    10000    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+
+
+sampleExtraLarge.txt - <function twoSum3 at 0x0000023AEC1A45E0>:
+         4901 function calls in 0.014 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.014    0.014 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.001    0.001 cp1252.py:22(decode)
+        1    0.010    0.010    0.014    0.014 test1.py:39(testTwoSum)
+        1    0.001    0.001    0.001    0.001 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.014    0.014 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.001    0.001    0.001    0.001 {method 'read' of '_io.TextIOWrapper' objects}
+     2446    0.002    0.000    0.002    0.000 {method 'split' of 'str' objects}
+     2445    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}

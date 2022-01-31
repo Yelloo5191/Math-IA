@@ -1,12 +1,5 @@
 import cProfile, os, random
 
-""" This is very bare-bones atm, mainly just for testing cProfile """
-# TODO: Write n^3 and log(n) methods and save cProfile results to results.txt file
-
-# O(n^3)
-def twoSum(nums: list, target: int) -> list:
-    pass
-
 # O(n^2)
 def twoSum1(nums: list, target: int) -> list:
     for i in range(len(nums)):
@@ -27,15 +20,15 @@ def twoSum2(nums: list, target: int) -> list:
 # O(log(n))
 def twoSum3(nums: list, target: int) -> list:
     nums.sort()
-    mid = len(nums) // 2
-
-    while True:
-        if nums[mid] > target - nums[mid - 1]:
-            nums = nums[mid:]
-        elif nums[mid] < target - nums[mid - 1]:
-            nums = nums[:mid+1]
-        else:
-            return [nums[mid], target - nums[mid]]
+    left = 0
+    right = len(nums) - 1
+    while left < right:
+        if nums[left] + nums[right] == target:
+            return [nums[left], nums[right]]
+        elif nums[left] + nums[right] < target:
+            left +=1
+        elif nums[left] + nums[right] > target:
+            right -=1
     return []
 
 
@@ -47,15 +40,8 @@ def testTwoSum(twoSum: callable, file: str) -> None:
             listo = x[:-3].strip('][').split(', ')
             listo = list(map(int, listo))
             target = int(x[-1])
-            print(twoSum(listo, target))
 
 cases = [
-    [
-        ("sampleSmall.txt", twoSum),
-        ("sampleMedium.txt", twoSum),
-        ("sampleLarge.txt", twoSum),
-        ("sampleExtraLarge.txt", twoSum)
-    ],
     [
         ("sampleSmall.txt", twoSum1),
         ("sampleMedium.txt", twoSum1),
@@ -79,7 +65,8 @@ cases = [
 # Profile run times
 for case in cases:
     for test in case:
-        cProfile.run(f"testTwoSum({test[1]},{test[0]})")
+        print(f"{test[0]} - {test[1]}:")
+        cProfile.run(f"testTwoSum({test[1].__name__},'{test[0]}')")
 
 """
 Generating Test Cases:
@@ -106,5 +93,13 @@ with open("sampleLarge.txt", "w") as f:
         target = random.randint(0,40)
         for y in range(10):
             listo.append(random.randint(0,20))
+        f.write(f"{listo} {target}\n")
+
+with open("sampleExtraLarge.txt", "w") as f:
+    for x in range(50000):
+        listo = []
+        target = random.randint(0,80)
+        for y in range(20):
+            listo.append(random.randint(0,40))
         f.write(f"{listo} {target}\n")
 """
