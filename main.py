@@ -40,6 +40,7 @@ def testTwoSum(twoSum: callable, file: str) -> None:
             listo = x[:-3].strip('][').split(', ')
             listo = list(map(int, listo))
             target = int(x[-1])
+            twoSum(listo, target)
 
 cases = [
     [
