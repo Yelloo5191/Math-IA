@@ -1,11 +1,13 @@
-import cProfile, os, random
+import cProfile
+# import os, random
+# Uncomment previous line when re-generating test cases
 
 # O(n^2)
 def twoSum1(nums: list, target: int) -> list:
     for i in range(len(nums)):
-        for j in range(i+1, len(nums)):
-            if nums[i] + nums[j] == target:
-                return [i, j]
+        for x in range(i+1, len(nums)):
+            if nums[i] + nums[x] == target:
+                return [i, x]
     return []
 
 # O(n)
@@ -26,11 +28,10 @@ def twoSum3(nums: list, target: int) -> list:
         if nums[left] + nums[right] == target:
             return [nums[left], nums[right]]
         elif nums[left] + nums[right] < target:
-            left +=1
+            left += 1
         elif nums[left] + nums[right] > target:
-            right -=1
+            right -= 1
     return []
-
 
 # Method to be measured
 def testTwoSum(twoSum: callable, file: str) -> None:
@@ -42,6 +43,7 @@ def testTwoSum(twoSum: callable, file: str) -> None:
             target = int(x[-1])
             twoSum(listo, target)
 
+# List of list of tuples containing each test case
 cases = [
     [
         ("sampleSmall.txt", twoSum1),
@@ -66,7 +68,7 @@ cases = [
 # Profile run times
 for case in cases:
     for test in case:
-        print(f"{test[0]} - {test[1]}:")
+        print(f"{test[0]} - {test[1].__name__}:")
         cProfile.run(f"testTwoSum({test[1].__name__},'{test[0]}')")
 
 """
