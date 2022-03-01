@@ -1,3 +1,8 @@
+#!python3
+# Written by Hovhannes Muradyan
+# Data Collection for IB Math HL Internal Assessment
+# v1.0
+
 import cProfile
 # import os, random
 # Uncomment previous line when re-generating test cases
